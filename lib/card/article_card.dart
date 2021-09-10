@@ -90,15 +90,14 @@ class AarticleCardState extends State<ArticleCard> {
               flex: 1,
             ),
             Container(
+             margin: EdgeInsets.only(right: 30),
               child: LikeButton(
                 size: 20,
                 isLiked: isLiked,
                 likeBuilder: (isLiked) {},
               ),
             ),
-            Spacer(
-              flex: 1,
-            )
+           
           ],
         ),
       ),
